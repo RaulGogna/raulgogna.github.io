@@ -27,6 +27,7 @@ type Dict = {
     eyebrow: string
     name: string
     role: string
+    tagline: string
     availability: string
     ctaWork: string
     ctaContact: string
@@ -62,7 +63,10 @@ const en: Dict = {
     eyebrow: 'Backend Engineer',
     name: 'Raúl Gogna',
     role: 'Java / .NET · Production LLM Integrations',
-    availability: 'Open to part-time engagements (~20h/week) · Remote · CET',
+    tagline:
+      "I build production backends that don't break — and ship LLM features that stay on budget.",
+    availability:
+      'Open to part-time engagements (~20h/week) · Remote · CET · Full EU + US-morning overlap',
     ctaWork: 'View work',
     ctaContact: 'Contact',
   },
@@ -76,7 +80,7 @@ const en: Dict = {
         year: '2026',
         status: 'production',
         description:
-          'Customer-facing AI assistant for an aesthetics clinic — Shadow DOM widget with monthly cost cap, rate limiting, and analytics events.',
+          'A clinic needed 24/7 patient answers without an unpredictable API bill. Shipped a customer-facing assistant with a hard monthly cost cap, rate limiting and analytics — always on, costs predictable.',
         tech: ['Cloudflare Workers', 'Anthropic Claude API', 'Shadow DOM'],
         link: 'https://anylopez.com',
         linkLabel: 'anylopez.com',
@@ -86,7 +90,7 @@ const en: Dict = {
         year: '2026',
         status: 'active',
         description:
-          'Personal finance PWA with clean 3-layer architecture (domain → application → infrastructure), Postgres row-level security, OTP auth, and 160 unit tests.',
+          'Replacing spreadsheets with software you can trust: finance PWA with clean 3-layer architecture (domain → application → infrastructure), Postgres row-level security, OTP auth and 160 unit tests.',
         tech: ['SvelteKit', 'Supabase', 'Cloudflare Workers', 'PostgreSQL'],
         link: 'https://github.com/RaulGogna/gastos-app',
         linkLabel: 'github.com/RaulGogna/gastos-app',
@@ -96,7 +100,7 @@ const en: Dict = {
         year: '2026',
         status: 'production',
         description:
-          'Serverless booking flow that replaced a third-party scheduler — instrumented for A/B measurement with zero cold-start overhead.',
+          'A third-party scheduler was costing conversions. Built a serverless booking flow to replace it, instrumented for A/B measurement — low maintenance, no vendor fees.',
         tech: ['Cloudflare Workers', 'Serverless', 'A/B Testing'],
         link: null,
         linkLabel: null,
@@ -106,7 +110,7 @@ const en: Dict = {
         year: '2025–2026',
         status: 'production',
         description:
-          'Full rebuild of a bilingual clinic site. Eliminated 1,198 ms of layout blocking, added structured data, ES/EN i18n, and completed a full domain migration.',
+          'A slow WordPress site was hurting rankings. Full rebuild: 1,198 ms of layout blocking eliminated, structured data, ES/EN i18n and a domain migration with zero SEO loss.',
         tech: ['Eleventy', 'ES/EN i18n', 'Core Web Vitals', 'Structured Data'],
         link: 'https://anylopez.com',
         linkLabel: 'anylopez.com',
@@ -136,7 +140,7 @@ const en: Dict = {
   contact: {
     sectionLabel: '03 — Contact',
     title: "Let's work together",
-    lead: 'Open to part-time backend & LLM integration work (~20h/week, remote, CET).',
+    lead: 'Open to part-time backend & LLM integration work (~20h/week, remote). Based in Spain (CET) — I overlap the full EU workday and US mornings.',
     emailCta: 'Send a message',
     githubLabel: 'GitHub',
     linkedinLabel: 'LinkedIn',
@@ -151,7 +155,10 @@ const es: Dict = {
     eyebrow: 'Ingeniero Backend',
     name: 'Raúl Gogna',
     role: 'Java / .NET · Integraciones LLM en producción',
-    availability: 'Disponible para proyectos part-time (~20h/semana) · Remoto · CET',
+    tagline:
+      'Construyo backends de producción que no se rompen — y funcionalidades LLM que no se salen del presupuesto.',
+    availability:
+      'Disponible para proyectos part-time (~20h/semana) · Remoto · CET',
     ctaWork: 'Ver proyectos',
     ctaContact: 'Contactar',
   },
@@ -165,7 +172,7 @@ const es: Dict = {
         year: '2026',
         status: 'production',
         description:
-          'Asistente IA para clientes de una clínica estética — widget Shadow DOM con límite de gasto mensual, rate limiting y eventos de analítica.',
+          'Una clínica necesitaba responder a pacientes 24/7 sin una factura de API impredecible. Asistente en producción con límite de gasto mensual, rate limiting y analítica — siempre disponible, costes predecibles.',
         tech: ['Cloudflare Workers', 'Anthropic Claude API', 'Shadow DOM'],
         link: 'https://anylopez.com',
         linkLabel: 'anylopez.com',
@@ -175,7 +182,7 @@ const es: Dict = {
         year: '2026',
         status: 'active',
         description:
-          'PWA de finanzas personales con arquitectura limpia en 3 capas (dominio → aplicación → infraestructura), RLS en Postgres, auth OTP y 160 tests unitarios.',
+          'Sustituir hojas de cálculo por software fiable: PWA de finanzas con arquitectura limpia en 3 capas (dominio → aplicación → infraestructura), RLS en Postgres, auth OTP y 160 tests unitarios.',
         tech: ['SvelteKit', 'Supabase', 'Cloudflare Workers', 'PostgreSQL'],
         link: 'https://github.com/RaulGogna/gastos-app',
         linkLabel: 'github.com/RaulGogna/gastos-app',
@@ -185,7 +192,7 @@ const es: Dict = {
         year: '2026',
         status: 'production',
         description:
-          'Flujo de reservas serverless que reemplazó un scheduler de terceros — instrumentado para medición A/B sin overhead de cold start.',
+          'Un scheduler de terceros costaba conversiones. Flujo de reservas serverless que lo sustituye, instrumentado para medición A/B — bajo mantenimiento, sin cuotas de proveedor.',
         tech: ['Cloudflare Workers', 'Serverless', 'A/B Testing'],
         link: null,
         linkLabel: null,
@@ -195,7 +202,7 @@ const es: Dict = {
         year: '2025–2026',
         status: 'production',
         description:
-          'Reconstrucción completa de una web bilingüe para clínica. Eliminados 1.198 ms de bloqueo de layout, datos estructurados, i18n ES/EN y migración de dominio.',
+          'Una web WordPress lenta penalizaba el posicionamiento. Rebuild completo: eliminados 1.198 ms de bloqueo de layout, datos estructurados, i18n ES/EN y migración de dominio sin pérdida SEO.',
         tech: ['Eleventy', 'i18n ES/EN', 'Core Web Vitals', 'Datos estructurados'],
         link: 'https://anylopez.com',
         linkLabel: 'anylopez.com',
@@ -225,7 +232,7 @@ const es: Dict = {
   contact: {
     sectionLabel: '03 — Contacto',
     title: 'Trabajemos juntos',
-    lead: 'Disponible para proyectos backend e integraciones LLM part-time (~20h/semana, remoto, CET).',
+    lead: 'Disponible para trabajo backend e integraciones LLM part-time (~20h/semana, remoto). Desde España (CET), con solape total con la jornada europea.',
     emailCta: 'Enviar mensaje',
     githubLabel: 'GitHub',
     linkedinLabel: 'LinkedIn',

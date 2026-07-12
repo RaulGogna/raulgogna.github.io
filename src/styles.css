@@ -228,6 +228,15 @@ a {
   letter-spacing: 0;
   line-height: 1.5;
 }
+.hero__tagline {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.55rem);
+  font-weight: 480;
+  font-style: italic;
+  color: var(--col-tinta);
+  line-height: 1.4;
+  max-width: 34ch;
+}
 .hero__availability {
   font-family: var(--font-mono);
   font-size: 0.78rem;
@@ -571,8 +580,9 @@ a {
   .hero__eyebrow     { animation: fadeUp 0.65s ease both; animation-delay: 0.05s; }
   .hero__name        { animation: fadeUp 0.8s ease both;  animation-delay: 0.15s; }
   .hero__role        { animation: fadeUp 0.65s ease both; animation-delay: 0.35s; }
-  .hero__availability{ animation: fadeUp 0.65s ease both; animation-delay: 0.45s; }
-  .hero__ctas        { animation: fadeUp 0.65s ease both; animation-delay: 0.55s; }
+  .hero__tagline     { animation: fadeUp 0.65s ease both; animation-delay: 0.45s; }
+  .hero__availability{ animation: fadeUp 0.65s ease both; animation-delay: 0.55s; }
+  .hero__ctas        { animation: fadeUp 0.65s ease both; animation-delay: 0.65s; }
 }
 
 /* ─── Mobile nav ─────────────────────────────────── */

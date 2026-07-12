@@ -12,6 +12,7 @@ export default function Hero() {
             Raúl <em>Gogna</em>
           </h1>
           <p className="hero__role">{t.hero.role}</p>
+          <p className="hero__tagline">{t.hero.tagline}</p>
           <p className="hero__availability">{t.hero.availability}</p>
           <div className="hero__ctas">
             <a href="#work" className="btn btn--primary">
