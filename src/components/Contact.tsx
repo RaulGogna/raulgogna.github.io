@@ -10,10 +10,11 @@ export default function Contact() {
           <span className="section__label">{t.contact.sectionLabel}</span>
           <h2 className="contact__title">{t.contact.title}</h2>
           <p className="contact__lead">{t.contact.lead}</p>
+          <p className="contact__scarcity">{t.contact.scarcity}</p>
 
           <div className="contact__links">
             <a
-              href="mailto:rkgogna27@gmail.com"
+              href="mailto:rkgogna27@gmail.com?subject=15-min%20intro%20call%20%E2%80%94%20part-time%20backend%2FLLM"
               className="contact__link contact__link--email"
             >
               {t.contact.emailCta}
