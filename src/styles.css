@@ -459,6 +459,30 @@ a {
   color: var(--col-ink);
   max-width: 58ch;
 }
+.about__intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  background: var(--col-card);
+  border: 1px solid var(--col-crema);
+  border-radius: 8px;
+  padding: clamp(1.5rem, 3.5vw, 2.25rem);
+}
+.about__photo {
+  width: 132px;
+  height: 132px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--col-crema);
+  box-shadow: 0 6px 24px rgba(27, 26, 23, 0.1);
+  background: var(--col-card);
+}
+.about__intro .about__bio {
+  flex: 1 1 260px;
+  min-width: 0;
+}
 .skills__label {
   font-family: var(--font-mono);
   font-size: 0.72rem;
