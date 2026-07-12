@@ -168,6 +168,7 @@ function SceneContent({
 
   return (
     <>
+      <color attach="background" args={['#F4F1E9']} />
       <fog attach="fog" args={['#F4F1E9', 10, 28]} />
       <ambientLight intensity={0.55} color="#FFF8F0" />
       <directionalLight
