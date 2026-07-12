@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Screenshots de verificación local (Playwright)
+scripts/*.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
