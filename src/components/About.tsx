@@ -12,9 +12,17 @@ export default function About() {
         </div>
 
         <div className="about__grid">
-          <p className="about__bio" data-reveal data-delay="1">
-            {t.about.bio}
-          </p>
+          <div className="about__intro" data-reveal data-delay="1">
+            <img
+              className="about__photo"
+              src="raul-gogna.jpg"
+              width={132}
+              height={132}
+              alt="Raúl Gogna"
+              loading="lazy"
+            />
+            <p className="about__bio">{t.about.bio}</p>
+          </div>
 
           <div data-reveal data-delay="2">
             <p className="skills__label">{t.about.skillsLabel}</p>
