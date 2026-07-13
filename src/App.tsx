@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Work from './components/Work'
 import About from './components/About'
+import Testimonial from './components/Testimonial'
 import Contact from './components/Contact'
 import Scene3D from './components/Scene3D'
 
@@ -68,6 +69,7 @@ export default function App() {
           <Hero />
           <Work />
           <About />
+          <Testimonial />
           <Contact />
         </main>
         <footer className="footer">
