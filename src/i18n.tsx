@@ -51,6 +51,7 @@ type Dict = {
     lead: string
     scarcity: string
     emailCta: string
+    emailAlt: string
     githubLabel: string
     linkedinLabel: string
   }
@@ -144,6 +145,7 @@ const en: Dict = {
     lead: 'Open to part-time backend & LLM integration work (~20h/week, remote). Based in Spain (CET) — I overlap the full EU workday and US mornings.',
     scarcity: 'Currently taking on one focused engagement for Q3 2026.',
     emailCta: 'Book a 15-min intro call',
+    emailAlt: 'Or email me',
     githubLabel: 'GitHub',
     linkedinLabel: 'LinkedIn',
   },
@@ -237,6 +239,7 @@ const es: Dict = {
     lead: 'Disponible para trabajo backend e integraciones LLM part-time (~20h/semana, remoto). Desde España (CET), con solape total con la jornada europea.',
     scarcity: 'Acepto un proyecto para el Q3 de 2026.',
     emailCta: 'Reserva una llamada de 15 min',
+    emailAlt: 'O escríbeme un email',
     githubLabel: 'GitHub',
     linkedinLabel: 'LinkedIn',
   },
