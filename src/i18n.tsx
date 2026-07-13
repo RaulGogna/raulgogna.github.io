@@ -45,6 +45,11 @@ type Dict = {
     skillsLabel: string
     skills: { backend: SkillGroup; ai: SkillGroup; cloud: SkillGroup }
   }
+  testimonial: {
+    quote: string
+    author: string
+    role: string
+  }
   contact: {
     sectionLabel: string
     title: string
@@ -139,6 +144,12 @@ const en: Dict = {
       },
     },
   },
+  testimonial: {
+    quote:
+      'Raúl took care of everything on the technical side of our clinic — website, online booking, and an AI assistant that answers patient questions around the clock. It just works, with no surprises on the bill, so we can focus on our patients. Dependable and easy to work with.',
+    author: 'AnyLopez',
+    role: 'Owner, AnyLopez Clínica Estética',
+  },
   contact: {
     sectionLabel: '03 — Contact',
     title: "Let's work together",
@@ -232,6 +243,12 @@ const es: Dict = {
         items: 'Cloudflare Workers · Supabase · Docker · Jenkins · CI/CD · GitHub Actions',
       },
     },
+  },
+  testimonial: {
+    quote:
+      'Raúl se encargó de toda la parte técnica de la clínica —web, reservas online y un asistente de IA que responde a los pacientes a cualquier hora—. Funciona solo, sin sustos en la factura, y así podemos centrarnos en nuestros pacientes. De fiar y fácil trabajar con él.',
+    author: 'AnyLopez',
+    role: 'Propietario, AnyLopez Clínica Estética',
   },
   contact: {
     sectionLabel: '03 — Contacto',

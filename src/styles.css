@@ -530,6 +530,51 @@ a {
   }
 }
 
+/* ─── Testimonial ────────────────────────────────── */
+.testimonial {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--col-card);
+  border: 1px solid var(--col-crema);
+  border-radius: 10px;
+  padding: clamp(2rem, 5vw, 3.5rem);
+  box-shadow: 0 8px 32px rgba(27, 26, 23, 0.06);
+}
+.testimonial__quote {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  font-weight: 480;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--col-ink);
+  margin: 0;
+}
+.testimonial__quote::before {
+  content: '“';
+  color: var(--col-terracota);
+  margin-right: 0.1em;
+}
+.testimonial__quote::after { content: '”'; color: var(--col-terracota); }
+.testimonial__cite {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-top: 1.75rem;
+}
+.testimonial__author {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--col-ink);
+}
+.testimonial__role {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--col-piedra);
+}
+
 /* ─── Contact ────────────────────────────────────── */
 .contact__inner {
   display: flex;
