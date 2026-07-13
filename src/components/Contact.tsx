@@ -14,10 +14,18 @@ export default function Contact() {
 
           <div className="contact__links">
             <a
-              href="mailto:rkgogna27@gmail.com?subject=15-min%20intro%20call%20%E2%80%94%20part-time%20backend%2FLLM"
+              href="https://cal.eu/raul-gogna/intro-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="contact__link contact__link--email"
             >
               {t.contact.emailCta}
+            </a>
+            <a
+              href="mailto:rkgogna27@gmail.com?subject=15-min%20intro%20call%20%E2%80%94%20part-time%20backend%2FLLM"
+              className="contact__link"
+            >
+              {t.contact.emailAlt}
             </a>
             <a
               href="https://github.com/RaulGogna"
